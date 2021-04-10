@@ -28,7 +28,7 @@ mongoose.connect("mongodb://localhost/asychronDev", {
     console.log("connection is succesfully connect ")
 }).catch((e)=>{
     console.log("no connection")
-})
+}) 
 
 // logger.info(JSON.stringify(process.env, null, 2))
 

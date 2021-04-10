@@ -8,7 +8,7 @@ var assetService = require(appRoot + '/services/assetService');
 router.get('/',(req,res,next)=>{
     assetService.getAssets("assets",  (err, results)=>{
         if(err){
-            res.status(500).send(err);
+             res.status(500).send(err);
         }
         else{
             res.send({ 'asset': results });

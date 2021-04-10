@@ -4,7 +4,7 @@ var assetSchema=mongoose.Schema(
     {
         assetName:{
             type:String,
-            required:true
+             required:true
         },
         assetType:{
             type:String,

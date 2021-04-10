@@ -37,7 +37,7 @@ exports.getAssets = (queryString, callback) => {
             } else {
                 callback(null, asset);
                 return;
-            }
+             }
         }
 
     })

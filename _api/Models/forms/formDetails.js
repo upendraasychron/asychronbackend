@@ -12,11 +12,11 @@ var formSchema=mongoose.Schema(
         },
         formType:{
             type:String,
-            required:true
+             required:true
         },
         status:String,
         actions:String
     }
-)
+) 
 
 var Form=module.exports=mongoose.model('forms',formSchema);

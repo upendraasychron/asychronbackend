@@ -10,6 +10,6 @@ var educationSchema=mongoose.Schema(
          percentage:Number
 
 
-    }
+     }
 )
 var Education =module.exports=mongoose.model("education",educationSchema)
